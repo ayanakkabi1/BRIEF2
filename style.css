@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* RÉINITIALISATION DU MENU */
+.main-nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    gap: 50px;
+    position: relative;
+    left: 10%;
+}
+.nav-links a{
+    color:white;
+    text-decoration: none;
+    font-family:  "Heebo", sans-serif;
+    font-weight:500 ;
+}
+/* SEARCH BAR */
+.search-input{
+    background-color: transparent;
+    border: 1px solid white;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 12px;
+}   
+.search-input::placeholder{
+    color: white;
+    font-family:  "Heebo", sans-serif;
+}
+
+.search-bar{
+    position: relative;
+}
+
+#sicon{
+    position: absolute;
+    left: 12px;
+    top: 12px;
+    color: white;
+}
+/* HEADER */
+.header-container{
+    position: fixed;
+    top: 40px;
+    left: 120px;
+    right: 120px;
+    margin-top : 0px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    gap: 50px;
+}
+/* backround*/
+#bg{
+    position: absolute;
+    z-index: -999;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* HERO SECTION */
+.hero{
+    position: relative;
+    top: 210px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 120px;
+      gap: 60px;              /* 📐 Espace entre colonnes */
+    min-height: 600px;
+}
+.hero-right{
+     width:100%;
+}
+.appointement-form{
+     position: relative;
+     z-index: 11;
+}
+.heroimg {
+    position: relative;
+    z-index: 10;
+}
+.heroimg img{
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.3);;
+}
+.rect{
+    position: absolute;
+    z-index: 11;
+    background-color:#2ecc707a ;
+    font-family:"Heebo", sans-serif;
+    color: rgb(255, 255, 255);
+    border: 1px solid #2ecc70c9;
+    border-radius: 12px ;
+    left: 120px;
+    padding: 1% 0.5%;
+}
+.cardprice p{
+    font-size: larger;
+}
+.cardprice span{
+    font-size: xx-small;
+}
