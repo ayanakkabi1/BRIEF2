@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,8 +12,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap" rel="stylesheet">
     <title>HOME</title>
 </head>
+
 <body>
-    <div>     
+    <div class="container">
+    <div>
         <img src="IMAGES/backround.png" alt="blue image" id="bg">
     </div>
     <header class="clinic">
@@ -23,7 +26,7 @@
                     <img src="IMAGES/logoo.png" alt="LOGO DE CLINIQUE" width="142" height="56" class="logo">
                 </a>
             </div>
-            
+
             <!-- Navigation -->
             <nav class="main-nav">
                 <ul class="nav-links">
@@ -33,7 +36,7 @@
                     <li><a href="Services.html">Services</a></li>
                 </ul>
             </nav>
-            
+
             <!-- Barre de recherche -->
             <div class="search-bar">
                 <i class="fa-solid fa-magnifying-glass" id="sicon"></i>
@@ -41,17 +44,17 @@
             </div>
         </div>
     </header>
-    
+
     <div class="hero">
         <div class="hero-left">
             <div class="rect">
-                <p>YOUR HEALTH IS OUR PRIORITY</p>  
+                <p>YOUR HEALTH IS OUR PRIORITY</p>
             </div>
             <div class="hero-titre">
-                <h1>More Than Medicine It's Personal</h1> 
+                <h1>More Than Medicine <br> It's Personal</h1>
             </div>
-            <div class="hero-paragraph"> 
-                <p>Wellness Hospital will always serve you wholeheartedly. Health is a priority.</p>
+            <div class="hero-paragraph">
+                <h5>Wellness Hospital will always serve you wholeheartedly. Health is a priority.</h5>
             </div>
             <div class="hero-buttons">
                 <a href="#" class="firstbtn">Book Appointement</a>
@@ -71,16 +74,571 @@
                 </ul>
             </div>
         </div>
-        
+
         <div class="hero-right">
             <div class="heroimg">
                 <img src="IMAGES/hero asset 1.png" alt="photo d'un docteur">
             </div>
             <div class="appointment-form">
-                <h3>Book an Appointment</h3>
                 <form>
+                    <div class="NT">
+                        <div class="form-group">
+
+                            <select id="doctor-type">
+                                <option value="">Select Doctor Type</option>
+                                <option value="cardiologist">Cardiologist</option>
+                                <option value="dentist">Dentist</option>
+                                <option value="neurologist">Neurologist</option>
+                                <option value="pediatrician">Pediatrician</option>
+                                <option value="surgeon">Surgeon</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <select id="doctor-name">
+                                <option value="">Select Doctor</option>
+                                <option value="dr-smith">Dr. Smith</option>
+                                <option value="dr-johnson">Dr. Johnson</option>
+                                <option value="dr-williams">Dr. Williams</option>
+                            </select>
+                        </div>
+
+                    </div>
+
+                    <div class="TD">
+                        <div class="form-group">
+                            <input type="date" id="date">
+                        </div>
+
+                        <div class="form-group">
+                            <input type="time" id="time">
+                        </div>
+                    </div>
+                    <button type="button" class="check-availability">Check Doctor Availability</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="logos">
+        <img src="IMAGES/logo1.png" alt="LAYERS">
+        <img src="IMAGES/logo2.png" alt="SISYPHUS">
+        <img src="IMAGES/logo3.png" alt="HOURGLASS">
+        <img src="IMAGES/logo4.png" alt="COMMANDE+R">
+    </div>
+     <!-- ABOUT US -->
+    <section class="aboutus">
+
+
+        <div class="aboutleft">
+
+            <div class="aboutimg1">
+                <img src="IMAGES/Rectangle 89 (1).png" alt="">
+            </div>
+
+            <div class="aboutimg2">
+                <img src="IMAGES/image2.png" alt="doctor & child">
+            </div>
+
+            <div class="aboutltext">
+                <p id="aboutltext1">20</p>
+                <p id="aboutltext2">Years Experience</p>
+            </div>
+
+
+        </div>
+
+        <div class="aboutright">
+
+            <div class="aboutrtext1">
+                <p>ABOUT US</p>
+            </div>
+
+            <div class="aboutrtext2">
+                <pre>We Are Always Ensure 
+Best Medical Treatment</pre>
+            </div>
+
+            <div class="aboutrtext3">
+                <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, rerum hic nihil quibusdam neque, sequi enim architecto omnis ex, molestias corporis voluptatem. Aut deserunt cupiditate enim suscipit odit ut labore?</P>
+            </div>
+
+            <div class="commentbox">
+
+                <div class="person1">
+                    <img src="/images/person1.png" alt="person 1">
+                </div>
+
+                 <div class="sercle">
+                 </div>
+
+                 <div class="person2">
+                    <img src="/images/Korean.png" alt="person2">
+                 </div>
+                
+                 <div class="comeenttext1">
+                    <p>"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt odit ab, nobis expedita velit commodi eligendi dolores nemo impedit, officiis tenetur necessitatibus at fugit vitae porro harum praesentium corrupti quas.</p>
+                 </div>
+
+                 <div class="blueicon">
+                    <img src="/images/icon.png" alt="blue icon">
+                 </div>
+
+                 <div class="comeenttext2">
+                    <p>Vice Director of Wellness Hospital</p>
+                 </div>
+
+                 <div class="moreaboutus">
+                <button type="button"><span>More About Us</span></button>
+                 </div>
+
+                 <div class="arrowicon2">
+                    <img src="/images/arrow.png" alt="icon">
+                 </div>
+                 
+            </div>
+            
+        </div>
+
+    </section>
+
+    <!-------------------------------------------------->
+    <div class="statics">
+        <div class="statics1">
+            <h1>500K+</h1>
+            <p> Recovered Patients</p>
+        </div>
+        <div class="statics2">
+            <h1>90+</h1>
+            <p> Expert Doctors</p>
+        </div>
+        <div class="statics3">
+            <h1>95%</h1>
+            <p>Satisfaction Rate</p>
+        </div>
+        <div class="statics4">
+            <h1>100+</h1>
+            <p>Awards</p>
+        </div>
+    </div>
+    <!--SERVICESSSSSSSSSSSSSSSSSSSSSSSS-->
+    <section class="services">
+        <div class="scontent">
+            <div id="topau">
+                <p>OUR SERVICES</p>
+            </div>
+            <div class="top">
+                <h2>
+                    Experienced in Multiplie <br> Medical Specialities
+                </h2>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Etiam hendrerit metus ex, id
+                    ullamcorper massa accumsan <br>volutpat. </p>
+            </div>
+            <div class="firstrow">
+                <div class="cardsection">
+                    <div class="cardcontent">
+                        <div class="cardtop">
+                            <img src="IMAGES/Frame 332.png" alt="">
+                            <h1>01</h1>
+                        </div>
+                        <div class="cardtext">
+                            <h3>Dental Care</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim lorem quis
+                                consequat.</p>
+                        </div>
+
+                        <button>Explore More </button>
+                    </div>
+
+                </div>
+
+                <div class="cardsection">
+                    <div class="cardcontent">
+                        <div class="cardtop">
+                            <img src="IMAGES/Frame 332 (2).png" alt="">
+                            <h1>02</h1>
+                        </div>
+                        <div class="cardtext">
+                            <h3>Orthopedicse</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim lorem quis
+                                consequat.</p>
+                        </div>
+
+                        <button style="background-color: #FFF3F2;">Explore More </button>
+                    </div>
+
+                </div>
+                <div class="cardsection">
+                    <div class="cardcontent">
+                        <div class="cardtop">
+                            <img src="IMAGES/Frame 332 (3).png" alt="">
+                            <h1>03</h1>
+                        </div>
+                        <div class="cardtext">
+                            <h3>Heart Care</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim lorem quis
+                                consequat.</p>
+                        </div>
+
+                        <button>Explore More </button>
+                    </div>
+
+                </div>
+            </div>
+            <div class="secondrow">
+                <div class="cardsection">
+                    <div class="cardcontent">
+                        <div class="cardtop">
+                            <img src="IMAGES/Frame 332 (4).png" alt="Pathology">
+                            <h1>04</h1>
+                        </div>
+                        <div class="cardtext">
+                            <h3>Pathology</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim lorem quis
+                                consequat.</p>
+                        </div>
+
+                        <button>Explore More </button>
+                    </div>
+
+                </div>
+                <div class="cardsection">
+                    <div class="cardcontent">
+                        <div class="cardtop">
+                            <img src="IMAGES/Frame 332 (5).png" alt="EYE Care">
+                            <h1>05</h1>
+                        </div>
+                        <div class="cardtext">
+                            <h3>Eye Care</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim lorem quis
+                                consequat.</p>
+                        </div>
+
+                        <button>Explore More </button>
+                    </div>
+
+                </div>
+                <div class="cardsection">
+                    <div class="cardcontent">
+                        <div class="cardtop">
+                            <img src="IMAGES/Frame 332 (6).png" alt="Internal Diseasee">
+                            <h1>06</h1>
+                        </div>
+                        <div class="cardtext">
+                            <h3>Internal Diseasee</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim lorem quis
+                                consequat.</p>
+                        </div>
+
+                        <button>Explore More </button>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <button class="btn-primary" style="position: relative; top: 2em; left: 28em; width: 15em; background-color: #FF6F61; border: 2px solid #FF6F61; border-radius: 100px; padding:23px 20px 23px 23px;">See
+                More Services
+                <img src="media/arrow-right.png" alt="arrow right" style="height: 70%;position: absolute; right: 6%;">
+            </button>
+        </div>
+    </section>
+    <!--DOCTOOOOOOOOOOOOOOOOOOOOOOOORS-->
+    <div class="DOCTORS">
+        <div class="our Doctors">
+            <p>OUR DOCTORS</p>
+        </div>
+        <div class="Titres">
+            <h1>Meet Our Expert Doctors</h1>
+        </div>
+        <div class="DOCTOR1">
+            <div class="doctorphoto">
+                <img src="IMAGES/Frame 1000001768.png">
+            </div>
+            <div class="doctorname">
+                <h1>Micol Efigenia</h1>
+            </div>
+            <div class="doctorpost">
+                <h3>Cardiologist</h3>
+            </div>
+            <div class="paragraph">
+                <p> Cardiologist with 8 years experience.
+                    Has been certified as the best heart
+                    doctor</p>
+            </div>
+        </div>
+
+        <div class="DOCTOR2">
+            <div class="doctorphoto2">
+                <img src="IMAGES/Frame 1000001768 (1).png" alt="doctor IRMA">
+            </div>
+            <div class="doctorname">
+                <h1>Irma Winnifred</h1>
+            </div>
+            <div class="doctorpost">
+                <h3>Dentist</h3>
+            </div>
+            <div class="paragraph">
+                <p> Cardiologist with 8 years experience.
+                    Has been certified as the best heart
+                    doctor</p>
+            </div>
+        </div>
+
+        <div class="DOCTOR3">
+            <div class="doctorphoto">
+                <img src="IMAGES/Frame 1000001769.png">
+            </div>
+            <div class="doctorname">
+                <h1>Mnason Prabhakar</h1>
+            </div>
+            <div class="doctorpost">
+                <h3> Phatologist</h3>
+            </div>
+            <div class="paragraph">
+                <p> Cardiologist with 8 years experience.
+                    Has been certified as the best heart
+                    doctor</p>
+            </div>
+        </div>
+
+        <div class="DOCTOR4">
+            <div class="doctorphoto">
+                <img src="IMAGES/Frame 1000001769 (1).png">
+            </div>
+            <div class="doctorname">
+                <h1> Lage Rodrigo</h1>
+            </div>
+            <div class="doctorpost">
+                <h3>Orthopedics</h3>
+            </div>
+            <div class="paragraph">
+                <p> Cardiologist with 8 years experience.
+                    Has been certified as the best heart
+                    doctor</p>
+            </div>
+        </div>
+
+        <div class="DOCTOR5">
+            <div class="doctorphoto">
+                <img src="IMAGES/Frame 1000001769 (2).png">
+            </div>
+            <div class="doctorname">
+                <h1>Giusi Marjut</h1>
+            </div>
+            <div class="doctorpost">
+                <h3>Orthopedics</h3>
+            </div>
+            <div class="paragraph">
+                <p> Cardiologist with 8 years experience.
+                    Has been certified as the best heart
+                    doctor</p>
+            </div>
+        </div>
+
+        <div class="DOCTOR6">
+            <div class="doctorphoto">
+                <img src="IMAGES/Frame 1000001769 (4).png">
+            </div>
+            <div class="doctorname">
+                <h1> Freyr Johano</h1>
+            </div>
+            <div class="doctorpost">
+                <h3>Internist</h3>
+            </div>
+            <div class="paragraph">
+                <p> Cardiologist with 8 years experience.
+                    Has been certified as the best heart
+                    doctor</p>
+            </div>
+        </div>
+    </div>
+    <div class="doctor-button">
+        <a href="#" class="firstbtn">See More Doctors</a>
+        <img src="IMAGES/Button (1).png" alt="See More DOCTORS button">
+    </div>
+    <!--addddddddddddddddddddddddddddddddddddddddddddddddddddddddddd-->
+    <div class="pub">
+        <div class="A">
+            <div>
+                <div>Want to Immediately See Our Trusted Doctor?</div>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+                    hendrerit metus ex, id ullamcorper massa accumsan volutpat.
+                    Etiam viverra pharetra dui, nec aliquet nisi consequat sit amet.
+                </p>
+                <div class="button">
+                          <a href="#" class="firstbtn">book appointment now</a>
+                </div>
+            </div>
+                
+        </div>
+        <img src="IMAGES/Frame 1000001955.png" alt="DR">
+    </div>
+    
+    <!---------------------------Pricing------------------------------->
+    <div class="Pricing">
+        <div class="our Pricing">
+            <p>PRICING</p>
+        </div>
+        <div class="titles">
+            <h1>Pick a Plan for Hospitalization Cost</h1>
+        </div>
+        <div class="paragraph">
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Etiam hendrerit metus ex, id ullamcorper massa accumsan
+                volutpat.</p>
+        </div>
+        <div class="CARDS">
+            <div class="card title">
+                <h1>Join Room</h1>
+            </div>
+            <div class="card paragraph">*
+                <p> Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit. Etiam
+                    hendrerit metus ex, id ullamcorper
+                    massa accumsan volutpat. </p>
+            </div>
+            <div class="cardprice">
+                <p>$19.3<span>\Person</span></p>
+            </div>
+            <hr>
+            <div class="Features">
+                <div classe="Titles">
+                    <p>Features</p>
+                </div>
+                <div class="1">
+                    <img src="IMAGES/checkmark-circle.png">
+                </div>
+                <div class="p">
+                    <p>Bedside Cabinet</p>
+                </div>
+                <div class="p">
+                    <p> Waiting Chair</p>
+                </div>
+                <div class="p">
+                    <p> Bathroom (Hot & Cold Water)</p>
+                </div>
+                <div class="p">
+                    <p> TV LED</p>
+                </div>
+            </div>
+            <div class="buttons">
+                <a href="#" class="firstbtn"> See More Features</a>
+                <p class="or">or</p>
+                <a href="#" class="secondbtn">Choose Plan</a>
+            </div>
+        </div>
+
+        <div class="CARDS">
+            <div class="card title">
+                <p>VIP<span>(Reccommended)</span></p>
+            </div>
+            <div class="card paragraph">
+                <p> Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit. Etiam
+                    hendrerit metus ex, id ullamcorper
+                    massa accumsan volutpat. </p>
+            </div>
+            <div class="cardprice">
+                <p>$30.5<span>\Person</span></p>
+            </div>
+            <hr>
+            <div class="Features">
+                <div classe="Titles">
+                    <p>Features</p>
+                </div>
+                <div class="1">
+                    <img src="IMAGES/checkmark-circle.png">
+                </div>
+                <div class="p">
+                    <p>Bedside Cabinet</p>
+                </div>
+                <div class="p">
+                    <p> Waiting Chair</p>
+                </div>
+                <div class="p">
+                    <p> Bathroom (Hot & Cold Water)</p>
+                </div>
+                <div class="p">
+                    <p> TV LED + WIFI</p>
+                </div>
+            </div>
+            <div>
+                <div class="buttons">
+                    <a href="#" class="firstbtn"> See More Features</a>
+                    <p class="or">or</p>
+                    <a href="#" class="secondbtn">Choose Plan</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="CARDS">
+            <div class="card title">
+                <p>VVIP Room</p>
+            </div>
+            <div class="card paragraph">
+                <p> Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit. Etiam
+                    hendrerit metus ex, id ullamcorper
+                    massa accumsan volutpat. </p>
+            </div>
+            <div class="cardprice">
+                <p>$50.6<span>\Person</span></p>
+            </div>
+            <hr>
+            <div class="Features">
+                <div classe="Titles">
+                    <p>Features</p>
+                </div>
+                <div class="1">
+                    <img src="IMAGES/checkmark-circle.png">
+                </div>
+                <div class="p">
+                    <p>Bedside Cabinet</p>
+                </div>
+                <div class="p">
+                    <p> Waiting Chair + Sofa</p>
+                </div>
+                <div class="p">
+                    <p> Bathroom (Hot & Cold Water)</p>
+                </div>
+                <div class="p">
+                    <p> TV LED + WIFI</p>
+                </div>
+            </div>
+            <div>
+                <div class="buttons">
+                    <a href="#" class="firstbtn"> See More Features</a>
+                    <p class="or">or</p>
+                    <a href="#" class="secondbtn">Choose Plan</a>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+    </div>
+    <div class="Plan-button">
+        <a href="#" class="pricebtn">See More PLan</a>
+        <img src="IMAGES/Button (1).png" alt="See More plan button">
+    </div>
+
+    <!--Booking-->
+    <div>
+        <div class="appointmentform">
+            <form>
+                <div class="NT">
                     <div class="form-group">
-                        <label for="doctor-type">Doctor Type</label>
+                        <input type="text" id="name" placeholder="NAME">
+                        <input type="text" id="email" placeholder="Input Email">
+
                         <select id="doctor-type">
                             <option value="">Select Doctor Type</option>
                             <option value="cardiologist">Cardiologist</option>
@@ -90,9 +648,8 @@
                             <option value="surgeon">Surgeon</option>
                         </select>
                     </div>
-                    
+
                     <div class="form-group">
-                        <label for="doctor-name">Doctor Name</label>
                         <select id="doctor-name">
                             <option value="">Select Doctor</option>
                             <option value="dr-smith">Dr. Smith</option>
@@ -100,410 +657,49 @@
                             <option value="dr-williams">Dr. Williams</option>
                         </select>
                     </div>
-                    
-                    <div class="form-group">
-                        <label for="date">Date</label>
+
+                </div>
+
+                <div class="TD">
+                    <div class="form">
                         <input type="date" id="date">
                     </div>
-                    
+
                     <div class="form-group">
-                        <label for="time">Time</label>
                         <input type="time" id="time">
                     </div>
-                    
-                    <button type="button" class="check-availability">Check Doctor Availability</button>
-                </form>
-            </div>
+                    <div class="sescription">
+                        <textarea id="description" placeholder="Describe ..."></textarea>
+                    </div>
+                </div>
+                <button type="button" class="Send">Send</button>
+            </form>
         </div>
     </div>
-    
-    <div class="logos">
-        <img src="IMAGES/logo1.png" alt="LAYERS">
-        <img src="IMAGES/logo2.png" alt="SISYPHUS">
-        <img src="IMAGES/logo3.png" alt="HOURGLASS">
-        <img src="IMAGES/logo4.png" alt="COMMANDE+R">
-    </div>
-    <div class="Aboutus">
-       <div class="about-left">
-        <img src="IMAGES/Rectangle 89 (1).png" alt="image d'un docteur">
-        <img src="IMAGES/image2.png " alt="A Doctor examines a patient">
-            <div class="imp">
-            <h1>20<br>Years Experience</h1>
-             </div>
-       </div>
-       <div class="about-right">
-         <div class="about-us-logo">
-            <p>About Us</p>
-         </div>
-        <div>
-          <h1> We Are Always Ensure Best Medical Treatment</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam hendrerit metus ex, id ullamcorper massa accumsan volutpat. 
-             Etiam viverra pharetra dui, nec aliquet nisi consequat sit amet.</p>
-        </div>
-        <div class="MOT">
-            <img src="IMAGES/Rectangle 83 (1).png" alt=" Vice Director of Wellness Hospital">
-            <img src="IMAGES/Frame 136.png" alt=" Second Vice Director of Wellness Hospital">
-            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-               Etiam hendrerit metus ex, id ullamcorper massa accumsan 
-               volutpat. Etiam viverra pharetra dui, nec aliquet nisi 
-               consequat sit amet."</p>
-             <div class="name">
-                <img src="IMAGES/Frame 137.png" alt="">
-                <p> Vice Director of Wellness Hospital</p>
-            </div>  
-        </div>
-        <div class="about-button">
-                <a href="#" class="firstbtn"> More About Us</a>
-                <img src="IMAGES/Button (1).png" alt="Aboutus button">
-        </div>    
-        <div class="statics">
-            <div class="statics1">
-                <h1>500K+</h1>
-                <p> Recovered Patients</p>
-             </div>
-             <div class="statics2">
-                <h1>90+</h1>
-                <p> Expert Doctors</p>
-             </div>
-             <div class="statics3">
-                <h1>95%</h1>
-                <p>Satisfaction Rate</p>
-             </div>
-             <div class="statics4">
-                <h1>100+</h1>
-                <p>Awards</p>
-             </div>
-       </div>
     </div>
     </div>
-<!--SERVICESSSSSSSSSSSSSSSSSSSSSSSS-->
-    <div class="SERVICES"> 
-        <div class="our Services">
-        <p>OUR SERVICES</p>
-         </div>
-         <div class="Titres">
-            <h1>Experienced in Multiple 
-                Medical Specialities</h1>
-         </div>
-         <div class="paragraph">
-            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-Etiam hendrerit metus ex, id ullamcorper massa accumsan 
-volutpat.</p>
-         </div>
-         <div class="cards">
-       <div class="card1">
-            <div class="icon-1">
-               <img src="IMAGES/Frame 332 (1).png">
-            </div>
-                <div class="icon number">
-                <h3>01</h3>
-                </div>
-                <div class="cardtext">
-                    <div class="title">
-                    <h2>Dental Care</h2>
-                    </div>
-                    <div class="text">
-                        <p> Lorem ipsum dolor sit amet, 
-                         consectetur adipiscing elit. Sed 
-                        dignissim lorem quis consequat</p>
-                    </div>
-                </div>
-                 <div class="button">
-                <a href="#" class="firstbtn">Explore More</a>
-                </div>
-        </div>
-       <div class="card2">
-            <div class="icon-2">
-               <img src="IMAGES/Frame 332 (2).png">
-            </div>
-                <div class="icon number2">
-                <h3>02</h3>
-                </div>
-                  <div class="cardtext">
-                    <div class="title">
-                    <h2> Orthopedics</h2>
-                    </div>
-                    <div class="text">
-                        <p> Lorem ipsum dolor sit amet, 
-                         consectetur adipiscing elit. Sed 
-                        dignissim lorem quis consequat</p>
-                    </div>
-                </div>
-                 <div class="button">
-                <a href="#" class="firstbtn">Explore More</a>
-                </div>
-        </div>
-
-       <div class="card3">
-            <div class="icon-3">
-               <img src="IMAGES/Frame 332 (3).png">
-            </div>
-                <div class="iconnum3">
-                <h3>03</h3>
-                </div>
-                    <div class="cardtext">
-                    <div class="title">
-                    <h2> Heart Care</h2>
-                    </div>
-                    <div class="text">
-                        <p> Lorem ipsum dolor sit amet, 
-                         consectetur adipiscing elit. Sed 
-                        dignissim lorem quis consequat</p>
-                    </div>
-                </div>
-                 <div class="button">
-                <a href="#" class="firstbtn">Explore More</a>
-                </div>
-                    
-        </div>
-
-       <div class="card4">
-            <div class="icon-4">
-               <img src="IMAGES/Frame 332 (4).png">
-            </div>
-                <div class="icon number">
-                <h3>04</h3>
-                </div>
-                <div class="cardtext">
-                    <div class="title">
-                    <h2>Pathology</h2>
-                    </div>
-                    <div class="text">
-                        <p> Lorem ipsum dolor sit amet, 
-                         consectetur adipiscing elit. Sed 
-                        dignissim lorem quis consequat</p>
-                    </div>
-                </div>
-                 <div class="button">
-                <a href="#" class="firstbtn">Explore More</a>
-                </div>
-        </div>
-
-        <div class="card5">
-            <div class="icon-5">
-               <img src="IMAGES/Frame 332 (5).png">
-            </div>
-                <div class="num5">
-                <h3>05</h3>
-                </div>
-                <div class="cardtext">
-                    <div class="title">
-                    <h2>Eye Care</h2>
-                    </div>
-                    <div class="text">
-                        <p> Lorem ipsum dolor sit amet, 
-                         consectetur adipiscing elit. Sed 
-                        dignissim lorem quis consequat</p>
-                    </div>
-                </div>
-                 <div class="button">
-                <a href="#" class="firstbtn">Explore More</a>
-                </div>
-        </div>
-
-        <div class="card6">
-            <div class="icon-6">
-               <img src="IMAGES/Frame 332 (6).png">
-            </div>
-                <div class="icon number6">
-                <h3>06</h3>
-                </div>
-                <div class="cardtext">
-                    <div class="title">
-                    <h2> Internal Disease</h2>
-                    </div>
-                    <div class="text">
-                        <p> Lorem ipsum dolor sit amet, 
-                         consectetur adipiscing elit. Sed 
-                        dignissim lorem quis consequat</p>
-                    </div>
-                </div>
-                <div class="button">
-                <a href="#" class="firstbtn">Explore More</a>
-                </div>
-        </div>
-
-
-         </div>
-         <div class="service-button">
-                <a href="#" class="firstbtn"> See More Services</a>
-                <img src="IMAGES/Button (1).png" alt="Aboutus button">
-         </div>
-    </div>
-<!--DOCTOOOOOOOOOOOOOOOOOOOOOOOORS-->
-    <div class="DOCTORS">
-        <div class="our Doctors">
-        <p>OUR DOCTORS</p>
-         </div>
-         <div class="Titres">
-            <h1>Meet Our Expert Doctors</h1>
-         </div>
-         <div class="DOCTOR1">
-            <div class="doctorphoto">
-            <img src="IMAGES/Frame 1000001768.png">
-            </div>
-            <div class="doctorname">
-                <h1>Micol Efigenia</h1>
-            </div>
-            <div class="doctorpost">
-                <h3>Cardiologist</h3>
-            </div>
-         <div class="paragraph">
-            <p>  Cardiologist with 8 years experience. 
-             Has been certified as the best heart 
-            doctor</p>
-         </div>
-         </div>
-
-          <div class="DOCTOR2">
-            <div class="doctorphoto2">
-            <img src="IMAGES/Frame 1000001768 (1).png" alt="doctor IRMA">
-            </div>
-            <div class="doctorname">
-                <h1>Irma Winnifred</h1>
-            </div>
-            <div class="doctorpost">
-                <h3>Dentist</h3>
-            </div>
-         <div class="paragraph">
-            <p>  Cardiologist with 8 years experience. 
-             Has been certified as the best heart 
-            doctor</p>
-         </div>
-            </div>
-
-        <div class="DOCTOR3">
-            <div class="doctorphoto">
-            <img src="IMAGES/Frame 1000001769.png">
-            </div>
-            <div class="doctorname">
-                <h1>Mnason Prabhakar</h1>
-            </div>
-            <div class="doctorpost">
-                <h3> Phatologist</h3>
-            </div>
-         <div class="paragraph">
-            <p>  Cardiologist with 8 years experience. 
-             Has been certified as the best heart 
-            doctor</p>
-         </div>
-         </div>
-
-         <div class="DOCTOR4">
-            <div class="doctorphoto">
-            <img src="IMAGES/Frame 1000001769 (1).png">
-            </div>
-            <div class="doctorname">
-                <h1> Lage Rodrigo</h1>
-            </div>
-            <div class="doctorpost">
-                <h3>Orthopedics</h3>
-            </div>
-         <div class="paragraph">
-            <p>  Cardiologist with 8 years experience. 
-             Has been certified as the best heart 
-            doctor</p>
-         </div>
-         </div>
-
-          <div class="DOCTOR5">
-            <div class="doctorphoto">
-            <img src="IMAGES/Frame 1000001769 (2).png">
-            </div>
-            <div class="doctorname">
-                <h1>Giusi Marjut</h1>
-            </div>
-            <div class="doctorpost">
-                <h3>Orthopedics</h3>
-            </div>
-         <div class="paragraph">
-            <p>  Cardiologist with 8 years experience. 
-             Has been certified as the best heart 
-            doctor</p>
-         </div>
-         </div>
-
-         <div class="DOCTOR6">
-            <div class="doctorphoto">
-            <img src="IMAGES/Frame 1000001769 (4).png">
-            </div>
-            <div class="doctorname">
-                <h1> Freyr Johano</h1>
-            </div>
-            <div class="doctorpost">
-                <h3>Internist</h3>
-            </div>
-         <div class="paragraph">
-            <p>  Cardiologist with 8 years experience. 
-             Has been certified as the best heart 
-            doctor</p>
-         </div>
-         </div>
 </div>
-         <div class="doctor-button">
-                <a href="#" class="firstbtn">See More Doctors</a>
-                <img src="IMAGES/Button (1).png" alt="See More DOCTORS button">
-        </div>
-<!--BOOOOOOOOOOOOOO--> 
-   <div class="pub">
-    <div class="title">
-        <h1>Want to Immediately See Our Trusted Doctor?</h1> 
-    </div>
-    <div class="paragraph">
-        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam 
-hendrerit metus ex, id ullamcorper massa accumsan volutpat. 
-Etiam viverra pharetra dui, nec aliquet nisi consequat sit amet.</p>
-    </div>
-    <div class="button">
-        <a href="#" class="firstbtn"></a>
-   </div>
-   </div class="photo">
-   <img src="IMAGES/Frame 1000001955.png" alt="DR">
-   </div>
-<!---------------------------book------------------------------->
-<div class="Pricing">
-    <div class="our Pricing">
-    <p>PRICING</p>
-    </div>
-    <div class="titles">
-        <h1>Pick a Plan for Hospitalization Cost</h1>
-    </div>
-    <div class="paragraph">
-        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-            Etiam hendrerit metus ex, id ullamcorper massa accumsan 
-            volutpat.</p>
-    </div>
-    <div class="CARDS">
-        <div class ="card title">
-            <h1>Join Room</h1>
-        </div>
-        <div class="card paragraph">*
-            <p> Lorem ipsum dolor sit amet, 
-consectetur adipiscing elit. Etiam 
-hendrerit metus ex, id ullamcorper 
-massa accumsan volutpat. </p>
-        </div>
-        <div class="cardprice">
-            <p>$19.3<span>\Person</span></p>
-        </div>
-        <hr>
-        <div class="Features">
-            <div classe="Titles">
-                <p>Features</p>
+    <!-----------------------------------FOOTER---------------------------------->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h2>About Wellness Hospital</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam hendrerit metus ex, id ullamcorper massa accumsan volutpat.</p>
             </div>
-                <div class="1">
-                    <img src="IMAGES/checkmark-circle.png">
-                </div>
-                <div class="p">
-                    <p>Bedside Cabinet</p>
-                </div>
-                <div class="p">
-                    <p></p>
-                </div>
+            <div class="footer-section links">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Doctors.html">Doctors</a></li>
+                    <li><a href="Services.html">Services</a></li>
+                </ul>
+            </div>
+            <div class="footer-section contact">
+                <h2>Contact Us</h2>
+                <p></p>
 
-            </div>
-        </div>
-</div>
 
 </body>
+
 </html>
