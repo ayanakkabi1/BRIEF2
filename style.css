@@ -547,16 +547,14 @@ display: flex;
 /* Doctors Section */
 
 .DOCTORS {
-    margin: 37% 0px;
+    margin: 60% 0px;
     width: 1200px;
     display: grid;
     grid-template-columns: repeat(3, auto);
     justify-content: space-between;
 }
-.DOCTOR 1{
-    width: 150px;
-    height: fit-content;
-    background-color: hgturquoise;
+.doctor1{ 
+    width:4px;
 }
 .doctor-card {
     background-color: white;
@@ -572,7 +570,7 @@ display: flex;
 }
 
 .doctor-photo img {
-    width: 120px;
+    width: 100px;
     height: 120px;
     border-radius: 50%;
     object-fit: cover;
@@ -592,24 +590,32 @@ display: flex;
 .doctor-bio {
     color: #666;
 }
+/*-----------------------------------------pricing---------------------------*/
+.pricing    {
 
-/* CTA Section */
-.cta {
+    height: 110vh;
+}
+
+.pr-container{
     display: flex;
-    max-width: 1200px;
-    margin: 5rem auto;
-    padding: 0 2rem;
-    background-color: #e6f2ff;
-    border-radius: 12px;
-    overflow: hidden;
+    margin-top: 23px;
+    flex-direction: column;
 }
 
-.cta-content {
-    flex: 1;
-    padding: 3rem;
+.pr-header-mid{
+    display: flex;
+    gap: 50%;
+
+}
+.pr-card{
+    height: 400px;
+    width: 25%;
+    border-radius: 20px;
+    border:1px solid gray;
 }
 
-.cta-content h1 {
-    font-size: 2rem;
-    margin-bottom: 1.5rem;
+.pr-main{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
 }
