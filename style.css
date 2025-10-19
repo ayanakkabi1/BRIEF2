@@ -30,9 +30,9 @@ body {
 .main-container {
     max-width: 1440px;
     margin: 0 auto;
-    padding: 0 40px;
+    padding: 0 20px;
 }
-
+/*header*/
 header {
     display: flex;
     justify-content: space-between;
@@ -93,7 +93,7 @@ nav a {
     color: white;
     font-family: "Heebo", sans-serif;
 }
-
+/*hero*/
 .hero {
     display: flex;
     align-items: flex-start;
@@ -298,7 +298,7 @@ nav a {
 .section-spacer-small {
     height: 1vh;
 }
-
+/*ABOUT*/
 .about-section {
     height: 110vh;
     display: flex;
@@ -481,25 +481,25 @@ nav a {
 }
 
 .services-section {
-    height: 120vh;
+    padding: 0 30px;
 }
 
 
 
 .services-content-wrapper {
     position: relative;
-    height: 120vh;
+    
     background-color: #F4F8FB;
     border-radius: 23px;
-    width: 198vh;
-    margin-left: 12px;
+    width: 100%;
     overflow: hidden;
     display: flex;
     z-index: -3;
     justify-content: space-between;
     padding-top: 5%;
-    padding-left: 17%;
+    margin:0 auto;
     display: block;
+    max-width:1440px ;
 }
 
 .services-content-wrapper .section-tag-label {
@@ -607,9 +607,9 @@ nav a {
     gap: 90px;
 }
 
-
+/*doctor*/
 .doctors-section {
-    height: 170vh;
+    padding-right: 80px;
     background-color: white;
 }
 
@@ -648,8 +648,9 @@ nav a {
 
 .doctors-card-container {
     display: block;
-    margin-left: 20%;
-    margin-right: 50%;
+    max: width 1200px;
+    margin: 0 auto;
+    padding:0 20px;
 }
 
 .doctor-profile-card {
@@ -664,6 +665,7 @@ nav a {
     text-align: center;
     color: black;
     margin-top: 3%;
+
 }
 
 .doctor-profile-card img {
@@ -675,9 +677,10 @@ nav a {
 
 .doctor-card-row {
     display: flex;
-    gap: 20%;
-    margin-top: 5%;
-    margin-right: 10%;
+    gap: 30px;
+    justify-content: center;
+    margin-top:5%;
+
 }
 
 .cta-section {
@@ -749,7 +752,7 @@ nav a {
     width: 16px;
     box-sizing: content-box;
 }
-
+/*pricing*/
 .pricing-section {
     height: auto;
     background-color: white;
@@ -977,7 +980,7 @@ nav a {
     background-position: center;
     position: relative;
 }
-
+/*appointement*/
 .appointment-form-container {
     max-width: 950px;
     margin: 0 auto;
@@ -1200,7 +1203,8 @@ footer {
     font-size: 14px;
     font-weight: 500;
     margin-bottom: 25px;
-    margin-left: 20%;
+    margin-left: 20%
+    margin:0 auto 25px auto;
 }
 .page-tag p {
     font-weight: bold;
